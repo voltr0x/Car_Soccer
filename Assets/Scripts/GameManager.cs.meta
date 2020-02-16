@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 45413b476bf2f044994df83bd073757b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - obstaclePrefab: {fileID: 7462825248604233885, guid: 976fc74797fecb941bd84ede188f2be3,
+      type: 3}
+  - gameBallPrefab: {fileID: 113453984553929719, guid: 47045ccb8f3944b9b8a55f6b07f0aefc,
+      type: 3}
+  - scoreText: {instanceID: 0}
+  - exitButton: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

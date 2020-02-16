@@ -493,6 +493,7 @@ GameObject:
   - component: {fileID: 6743241484587033189}
   - component: {fileID: 7114303020615996653}
   - component: {fileID: 7114303020615996652}
+  - component: {fileID: 5217408242043775554}
   m_Layer: 0
   m_Name: Enemy 3
   m_TagString: Untagged
@@ -593,7 +594,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 32
   m_CollisionDetection: 0
 --- !u!65 &7114303020615996652
 BoxCollider:
@@ -608,6 +609,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4149134, y: 3.8037806, z: 6.7103386}
   m_Center: {x: 0.00000011920929, y: 2.6350589, z: 0.010605693}
+--- !u!114 &5217408242043775554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114303018832454629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c644ecb2abd0c9498600538080dd3a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 113453984553929719, guid: 47045ccb8f3944b9b8a55f6b07f0aefc, type: 3}
+  speed: 10
 --- !u!1 &7114303018832460325
 GameObject:
   m_ObjectHideFlags: 0
